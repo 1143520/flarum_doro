@@ -1,0 +1,18 @@
+flarum-twemoji:
+  forum:
+    composer:
+      emoji_tooltip: 表情
+      type_to_search_text: "搜索 Emoji 表情"
+
+  admin:
+    settings:
+      base: Base
+      folder: 文件夹名
+      ext: 扩展名
+      basehelp: "提示：键入$以替换为自动版本号。区分大小写。"
+      baseph: "示例：https://www.example.com/"
+      folderph: "示例：svg"
+      extph: "示例：.gif"
+      disable_autocomplete: 关闭自动表情补全
+      use_emoji_as_filename: 使用表情符号作为文件名
+      use_emoji_as_filename_help: 如果您的表情文件是以实际的表情符号命名的（例如："😀.gif"），请启用此选项

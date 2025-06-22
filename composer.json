@@ -1,10 +1,15 @@
 {
-    "name": "1143520/flarum-twemoji",
+    "name": "1143520/flarum_doro",
     "description": "Convert text and unicode emoji into Twemoji with custom image source.",
     "type": "flarum-extension",
     "license": "MIT",
     "require": {
         "flarum/core": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doro\\Twemoji\\": "src/"
+        }
     },
     "extra": {
         "flarum-extension": {

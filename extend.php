@@ -7,7 +7,7 @@
  * LICENSE file that was distributed with this source code.
  */
 
-namespace webdev\twemoji;
+namespace Doro\Twemoji;
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
